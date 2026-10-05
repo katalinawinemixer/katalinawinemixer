@@ -2,9 +2,9 @@
 
 > I have received the call to study the ancient language of machines.
 
-I work in clinical research and regulatory affairs. I build small tools around the workflows I know: protocol training, amendments, evidence review, and audit readiness.
+I recently graduated with a B.S. in Applied Health Sciences and am based in San Francisco. My background spans laboratory workflows, clinical trial coordination, and regulatory affairs.
 
-I'm learning Python and JavaScript/TypeScript, with a focus on healthcare workflows and interfaces that make AI outputs easier to inspect and review.
+I'm moving toward healthtech, especially wearable and medical device research. Alongside that, I'm learning Python and JavaScript/TypeScript and building practical tools around study workflows, evidence review, and human oversight.
 
 ## Projects
 
@@ -42,7 +42,7 @@ A food-photo app that ranks likely San Francisco restaurants and cafes. It strip
 
 I start with a workflow problem, define what the tool should do, and check its behavior against those requirements. I use AI coding tools as part of my learning and prototyping process. I own the requirements, product decisions, review criteria, and verification, while I keep building my coding fundamentals.
 
-I'm interested in healthtech, clinical AI, regulatory workflow tooling, and implementation work where my clinical research background is useful.
+I'm interested in clinical study operations, research coordination, regulatory operations, and implementation work with healthtech, wearable, and medical device teams.
 
 ## Elsewhere
 
