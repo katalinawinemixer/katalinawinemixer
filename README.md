@@ -18,6 +18,16 @@ I'm interested in roles where clinical/regulatory domain fluency, documentation 
 
 ## Featured projects
 
+### Healthcare Agent Ops Lab
+
+Review workspace for synthetic healthcare agent responses across benefits, billing, patient access, prior authorization, and clinical-trial navigation.
+
+- [Live demo](https://katalinawinemixer.github.io/healthcare-agent-ops-lab/)
+- [Repository and setup](https://github.com/katalinawinemixer/healthcare-agent-ops-lab)
+- [Case study](https://github.com/katalinawinemixer/healthcare-agent-ops-lab/blob/main/docs/case-study.md)
+- Reviewers inspect source evidence, score responses, tag failures, and export review records. Approval gates block responses with low scores, missing evidence, privacy failures, or required escalation.
+- The examples are synthetic. Reviews stay in browser storage; there is no live healthcare-system connection.
+
 ### StudyChaser
 
 Regulatory training follow-up prototype for clinical research teams.
@@ -42,7 +52,7 @@ AI-assisted photo guessing app for identifying likely San Francisco food venues 
 
 - Live app: https://spotted-in-sf.com
 - GitHub: https://github.com/katalinawinemixer/sf-food-guesser
-- Public case study: https://github.com/katalinawinemixer/katalinawinemixer/blob/main/sf-food-guesser-case-study.md
+- [Product specification](https://github.com/katalinawinemixer/sf-food-guesser/blob/main/docs/PRODUCT_SPEC.md)
 - Why it matters: it shows applied AI product exploration outside the clinical/regulatory niche: image upload flows, ranking, privacy, provider behavior, and test coverage.
 - Built with: full-stack JavaScript, AI vision/search workflows, metadata stripping, rate limiting, deployment checks, tests.
 
