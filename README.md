@@ -2,84 +2,48 @@
 
 > I have received the call to study the ancient language of machines.
 
-I'm a clinical research regulatory affairs professional with hands-on experience in the trial workflows that often become software problems: training follow-up, amendments, evidence review, audit readiness, privacy, and human oversight.
+I work in clinical research and regulatory affairs. I build small tools around the workflows I know: protocol training, amendments, evidence review, and audit readiness.
 
-I'm looking for roles in healthtech, clinical AI, regulatory workflow tooling, implementation, or product-adjacent teams where that background is useful. I learn quickly, prototype fast, and care about making regulated workflows easier to track, review, and trust.
+I'm learning Python and JavaScript/TypeScript, with a focus on healthcare workflows and interfaces that make AI outputs easier to inspect and review.
 
-## Current direction
-
-I'm interested in roles where clinical/regulatory domain fluency, documentation discipline, implementation judgment, AI workflow literacy, and hands-on prototyping are useful, especially:
-
-- Clinical research / regulatory affairs roles with AI, automation, systems, or process-improvement responsibility
-- Healthtech implementation, customer success, or solutions roles where clinical/regulatory fluency matters
-- Clinical AI / regulatory workflow roles involving documentation, review workflows, evidence trails, or human oversight
-- Product-adjacent healthtech roles where clinical/regulatory workflow judgment is the wedge
-- Technical operations roles only when the work values domain expertise plus hands-on tooling/prototyping
-
-## Featured projects
+## Projects
 
 ### Healthcare Agent Ops Lab
 
-Review workspace for synthetic healthcare agent responses across benefits, billing, patient access, prior authorization, and clinical-trial navigation.
+A review workspace for healthcare agent responses. Reviewers compare responses with source evidence, score them, tag failures, and choose whether to approve, revise, or escalate. Approval gates check scores, evidence, privacy, and required handoffs.
 
-- [Live demo](https://katalinawinemixer.github.io/healthcare-agent-ops-lab/)
-- [Repository and setup](https://github.com/katalinawinemixer/healthcare-agent-ops-lab)
-- [Case study](https://github.com/katalinawinemixer/healthcare-agent-ops-lab/blob/main/docs/case-study.md)
-- Reviewers inspect source evidence, score responses, tag failures, and export review records. Approval gates block responses with low scores, missing evidence, privacy failures, or required escalation.
-- The examples are synthetic. Reviews stay in browser storage; there is no live healthcare-system connection.
+The cases are synthetic, and review records stay in browser storage.
+
+[Demo](https://katalinawinemixer.github.io/healthcare-agent-ops-lab/) · [Code](https://github.com/katalinawinemixer/healthcare-agent-ops-lab) · [Case study](https://github.com/katalinawinemixer/healthcare-agent-ops-lab/blob/main/docs/case-study.md)
 
 ### StudyChaser
 
-Regulatory training follow-up prototype for clinical research teams.
+A regulatory training tracker for clinical study teams. It tracks protocol and amendment training by study and staff member, shows overdue acknowledgments, and previews follow-up emails with filing notes.
 
-- Live demo: https://studychaser.katalinalondono.com
-- GitHub: https://github.com/katalinawinemixer/studychaser
-- Why it matters: clinical teams need clearer ways to track protocol and amendment training, overdue acknowledgments, staff follow-up, and audit-ready filing notes.
-- Built with: React, Vite, Node.js, Cloudflare Workers, synthetic demo data, read-only hosted mode.
+The hosted demo uses synthetic data, blocks record changes, and does not send emails.
+
+[Demo](https://studychaser.katalinalondono.com/) · [Code](https://github.com/katalinawinemixer/studychaser)
 
 ### Human-AI Design System
 
-AI interface pattern project for source grounding, uncertainty, feedback, evals, comparison, and human review.
+Reusable interface patterns for citations, uncertainty, feedback, response comparison, and human review. Includes Model Behavior Studio for reviewing candidate responses and TrialSense for clinical-trial diligence.
 
-- Live demo: https://katalinawinemixer.github.io/human-ai-design-system/
-- GitHub: https://github.com/katalinawinemixer/human-ai-design-system
-- Why it matters: AI products need interfaces that make evidence, uncertainty, and review states visible instead of hiding model behavior behind a magic text box.
-- Built with: React, TypeScript, component patterns, product demos, GitHub Pages.
+Feedback selections carry into review exports. The app is a frontend prototype with static scenarios and local UI state.
 
-### SF Food Guesser
+[Demo](https://katalinawinemixer.github.io/human-ai-design-system/) · [Code](https://github.com/katalinawinemixer/human-ai-design-system)
 
-AI-assisted photo guessing app for identifying likely San Francisco food venues from images, with privacy-aware upload handling.
+### Spotted in SF
 
-- Live app: https://spotted-in-sf.com
-- GitHub: https://github.com/katalinawinemixer/sf-food-guesser
-- [Product specification](https://github.com/katalinawinemixer/sf-food-guesser/blob/main/docs/PRODUCT_SPEC.md)
-- Why it matters: it shows applied AI product exploration outside the clinical/regulatory niche: image upload flows, ranking, privacy, provider behavior, and test coverage.
-- Built with: full-stack JavaScript, AI vision/search workflows, metadata stripping, rate limiting, deployment checks, tests.
+A food-photo app that ranks likely San Francisco restaurants and cafes. It strips embedded image metadata before provider analysis and presents guesses with uncertainty. Replacing or removing a photo cancels the pending analysis.
 
-### Portfolio / writing home
+[Demo](https://spotted-in-sf.com/) · [Code](https://github.com/katalinawinemixer/sf-food-guesser) · [Product notes](https://github.com/katalinawinemixer/sf-food-guesser/blob/main/docs/PRODUCT_SPEC.md)
 
-Personal site for technical projects, clinical/regulatory perspective, and biotech/LatAm writing.
+## How I work
 
-- Software / projects page: https://www.katalinalondono.com/software
-- Main site: https://www.katalinalondono.com/
-- GitHub: https://github.com/katalinawinemixer/katalina-site
+I start with a workflow problem, define what the tool should do, and check its behavior against those requirements. I use AI coding tools as part of my learning and prototyping process. I own the requirements, product decisions, review criteria, and verification, while I keep building my coding fundamentals.
 
-## My edge
+I'm interested in healthtech, clinical AI, regulatory workflow tooling, and implementation work where my clinical research background is useful.
 
-I come from clinical research and regulatory affairs, where software gaps show up as missed training, delayed amendments, audit risk, and operational drag. I use prototypes to explore how those workflows could be easier to track, review, and trust.
+## Elsewhere
 
-I use AI coding tools transparently as part of my learning and prototyping process. I own the workflow problem, requirements, product judgment, review criteria, verification expectations, and documentation, while I'm strengthening my fundamentals, especially Python and JavaScript/TypeScript.
-
-## Current focus
-
-- Translating clinical/regulatory workflow pain into clear requirements and small technical prototypes
-- Exploring applied AI workflows around evidence, uncertainty, ranking, and human review
-- Practicing Python and JavaScript fundamentals
-- Exploring healthtech, clinical AI, implementation, solutions, and product-adjacent roles without overstating my current title
-
-## Links
-
-- Software portfolio: https://www.katalinalondono.com/software
-- Portfolio / writing home: https://www.katalinalondono.com/
-- GitHub: https://github.com/katalinawinemixer
-- LinkedIn: https://www.linkedin.com/in/katalinalondono/
+[Projects and writing](https://www.katalinalondono.com/) · [Software portfolio](https://www.katalinalondono.com/software) · [LinkedIn](https://www.linkedin.com/in/katalinalondono/)
